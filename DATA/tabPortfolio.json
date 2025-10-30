@@ -1,0 +1,229 @@
+[
+  {
+    "categorie": "Hackathons EPHEC",
+    "nom": "Hackathon 2024",
+    "heures_prestees": "44h",
+    "heures_valorisees": "10h",
+    "description": "Participation au hackathon annuel de l'EPHEC 2024",
+    "preuves": [
+      {
+        "lien": "https://github.com/Nini1551/Hackaton2024",
+        "legende": "Repository GitHub du projet"
+      },
+      {
+        "lien": "https://www.instagram.com/p/DCR-yQkMZ1s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "legende": "Post Instagram de l'événement"
+      }
+    ]
+  },
+  {
+    "categorie": "Hackathons EPHEC",
+    "nom": "Hackathon 2025",
+    "heures_prestees": "44h",
+    "heures_valorisees": "10h",
+    "description": "Participation au hackathon annuel de l'EPHEC 2025",
+    "preuves": [
+      {
+        "lien": "https://github.com/Akanaifu/RizzBee",
+        "legende": "Repository GitHub RizzBee"
+      },
+      {
+        "lien": "photo_equipe2025.jpg",
+        "legende": "Photo de l'équipe"
+      },
+      {
+        "lien": "play_piano.mp4",
+        "legende": "Vidéo du piano interactif"
+      }
+    ]
+  },
+  {
+    "categorie": "Cyber Security Challenge Belgium",
+    "nom": "CSCB 2024",
+    "heures_prestees": "24h",
+    "heures_valorisees": "5h",
+    "description": "Compétition de cybersécurité nationale 2024",
+    "preuves": [
+      {
+        "lien": "cscb2024.png",
+        "legende": "Badge de participation CSCB 2024"
+      }
+    ]
+  },
+  {
+    "categorie": "Cyber Security Challenge Belgium",
+    "nom": "CSCB 2025",
+    "heures_prestees": "24h",
+    "heures_valorisees": "5h",
+    "description": "Compétition de cybersécurité nationale 2025",
+    "preuves": [
+      {
+        "lien": "https://www.instagram.com/p/DIjic3RM8Iz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "legende": "Post Instagram CSCB 2025"
+      }
+    ]
+  },
+  {
+    "categorie": "Conférence",
+    "nom": "Let's fix it",
+    "heures_prestees": "",
+    "heures_valorisees": "0h",
+    "description": "Participation à la conférence Let's fix it",
+    "preuves": [
+      {
+        "lien": "preuve_prof.pdf",
+        "legende": "Attestation de présence"
+      }
+    ]
+  },
+  {
+    "categorie": "Tutorat",
+    "nom": "Programmation",
+    "heures_prestees": "",
+    "heures_valorisees": "8h",
+    "description": "Séances de tutorat en programmation pour étudiants de première année",
+    "preuves": [
+      {
+        "lien": "attestation_tutorat.pdf",
+        "legende": "Attestation de tutorat"
+      }
+    ]
+  },
+  {
+    "categorie": "Tutorat",
+    "nom": "Math",
+    "heures_prestees": "2h",
+    "heures_valorisees": "2h",
+    "description": "Aide aux devoirs en mathématiques",
+    "preuves": [
+      {
+        "lien": "attestation_tutorat.pdf",
+        "legende": "Attestation de tutorat"
+      }
+    ]
+  },
+  {
+    "categorie": "LAN EPHEC",
+    "nom": "LAN EPHEC 2024",
+    "heures_prestees": "11h",
+    "heures_valorisees": "5h",
+    "description": "Organisation et participation au LAN party de l'EPHEC 2024",
+    "preuves": [
+      {
+        "lien": "photos_lan_2024.zip",
+        "legende": "Photos du LAN 2024"
+      }
+    ]
+  },
+  {
+    "categorie": "LAN EPHEC",
+    "nom": "LAN EPHEC 2025",
+    "heures_prestees": "11h",
+    "heures_valorisees": "5h",
+    "description": "Organisation et participation au LAN party de l'EPHEC 2025",
+    "preuves": [
+      {
+        "lien": "photos_lan_2025.zip",
+        "legende": "Photos du LAN 2025"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "Ultimate Frisbee",
+    "heures_prestees": "~400h",
+    "heures_valorisees": "10h",
+    "description": "Pratique régulière de l'ultimate frisbee en club",
+    "preuves": [
+      {
+        "lien": "https://www.instagram.com/p/C5oUqtEIRa6/",
+        "legende": "Post Instagram du club"
+      },
+      {
+        "lien": "openDeTouraine.jpg",
+        "legende": "Open de Touraine"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "Vélo",
+    "heures_prestees": "",
+    "heures_valorisees": "0h",
+    "description": "Pratique régulière du cyclisme",
+    "preuves": [
+      {
+        "lien": "https://strava.com/athletes/51027626",
+        "legende": "Profil Strava"
+      },
+      {
+        "lien": "velo_col.jpg",
+        "legende": "Sortie en montagne"
+      },
+      {
+        "lien": "velo_hiver.jpg",
+        "legende": "Vélo en hiver"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "gymnastyque",
+    "heures_prestees": "~150h",
+    "heures_valorisees": "0h",
+    "description": "Cours de gymnastique hebdomadaires",
+    "preuves": [
+      {
+        "lien": "https://www.instagram.com/reel/DOjFjYCiVx4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "legende": "Démonstration de gymnastique"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "Job étudiant (moniteur gym)",
+    "heures_prestees": "~150h",
+    "heures_valorisees": "0h",
+    "description": "Travail comme moniteur de gymnastique",
+    "preuves": [
+      {
+        "lien": "contrat_travail.pdf",
+        "legende": "Contrat de travail"
+      },
+      {
+        "lien": "attestation_employeur.pdf",
+        "legende": "Attestation de l'employeur"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "Intendant scout",
+    "heures_prestees": "~1150h",
+    "heures_valorisees": "0h",
+    "description": "Intendant dans la section Baladin des Marolles",
+    "preuves": [
+      {
+        "lien": "scout.jpg",
+        "legende": "Photo du camp scout"
+      }
+    ]
+  },
+  {
+    "categorie": "Softskills",
+    "nom": "Délégué Bac 2&3",
+    "heures_prestees": "",
+    "heures_valorisees": "0h",
+    "description": "Représentant des étudiants de Bac 2 et 3",
+    "preuves": [
+      {
+        "lien": "teamsDelegueB3.png",
+        "legende": "Message Teams délégué Bac 3"
+      },
+      {
+        "lien": "mailDelegueB2.png",
+        "legende": "Email délégué Bac 2"
+      }
+    ]
+  }
+]

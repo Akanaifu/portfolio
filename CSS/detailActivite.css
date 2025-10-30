@@ -1,0 +1,287 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  margin: 0;
+  padding: 16px;
+}
+
+.activity-detail {
+  max-width: 800px;
+  margin: 24px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+}
+
+.activity-detail h1 {
+  color: #1f6feb;
+  margin-bottom: 8px;
+}
+
+.category {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.hours-info {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+.hours-info p {
+  margin: 8px 0;
+}
+
+.description {
+  margin-bottom: 32px;
+}
+
+.description h2,
+.preuves h2 {
+  color: #334155;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.preuves {
+  margin-bottom: 32px;
+}
+
+.preuve-item {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 4px;
+}
+
+.preuve-item a {
+  color: #1f6feb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.preuve-item a:hover {
+  text-decoration: underline;
+}
+
+.image-preuve {
+  text-align: center;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+}
+
+.image-preuve img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.image-preuve img:hover {
+  transform: scale(1.02);
+}
+
+.image-caption {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+.preuve-legend {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #64748b;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Styles pour les vidéos */
+.video-preuve {
+  text-align: center;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+}
+
+.video-preuve video {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-caption {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+.instagram-embed {
+  max-width: 540px;
+  margin: 20px auto;
+}
+
+/* Styles pour le badge Strava */
+.strava-badge-container {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+}
+
+.strava-badge- {
+  display: inline-block;
+  height: 48px;
+}
+
+.strava-badge- img {
+  visibility: hidden;
+  height: 48px;
+}
+
+.strava-badge-:hover {
+  background-position: 0 -63px;
+}
+
+.strava-badge-follow {
+  height: 48px;
+  width: 48px;
+  background: url(//badges.strava.com/echelon-sprite-48.png) no-repeat 0 0;
+}
+
+.strava-caption {
+  margin-top: 12px;
+  font-size: 0.875rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1f6feb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.back-link:hover {
+  background: #0d47a1;
+}
+
+.error {
+  color: #dc2626;
+  padding: 16px;
+  background: #fee2e2;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .image-preuve img {
+    max-height: 400px;
+  }
+
+  .video-preuve video {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-preuve img {
+    max-height: 300px;
+  }
+
+  .video-preuve video {
+    max-height: 300px;
+  }
+}
+
+/* Styles pour la lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  z-index: 10000;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+  color: #bbb;
+}
+
+.lightbox-caption {
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  margin-top: 16px;
+  font-size: 1rem;
+  max-width: 90%;
+}

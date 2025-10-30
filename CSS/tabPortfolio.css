@@ -1,0 +1,228 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  margin: 0;
+  padding: 16px;
+}
+
+#table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 24px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#table thead th {
+  background: #1f6feb;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+#table th,
+#table td {
+  border-bottom: 1px solid #edf2f7;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  border-color: #8888;
+  text-align: center;
+}
+
+/* Styles pour la cellule catégorie */
+#table td.category-label {
+  font-weight: 700;
+  text-align: left;
+}
+
+/* Styles pour les liens d'activité */
+#table a.activity-link {
+  color: #1f6feb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+#table a.activity-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+/* Styles pour la ligne de total */
+#table tr.total-row {
+  background: #1f6feb !important;
+  font-weight: 800;
+  color: #fff;
+}
+
+#table tr.total-row td {
+  border-top: 2px solid #0d47a1;
+  padding: 14px 16px;
+}
+
+/* couleurs par catégorie - appliquées sur toute la ligne */
+#table tr.cat-hackathons-ephec {
+  background: #fef3c7 !important;
+}
+#table tr.cat-hackathons-ephec td.category-label {
+  color: #92400e !important;
+}
+
+#table tr.cat-cyber-security-challenge-belgium {
+  background: #fee2e2 !important;
+}
+#table tr.cat-cyber-security-challenge-belgium td.category-label {
+  color: #7f1d1d !important;
+}
+
+#table tr.cat-conference {
+  background: #ede9fe !important;
+}
+#table tr.cat-conference td.category-label {
+  color: #4c1d95 !important;
+}
+
+#table tr.cat-tutorat {
+  background: #c5e487 !important;
+}
+#table tr.cat-tutorat td.category-label {
+  color: #365314 !important;
+}
+
+#table tr.cat-lan-ephec {
+  background: #89c6ee !important;
+}
+#table tr.cat-lan-ephec td.category-label {
+  color: #075985 !important;
+}
+
+#table tr.cat-softskills {
+  background: #84d4c4 !important;
+}
+#table tr.cat-softskills td.category-label {
+  color: #064e3b !important;
+}
+
+/* Responsive pour tablettes */
+@media (max-width: 1024px) {
+  #table {
+    max-width: 95%;
+  }
+
+  #table th,
+  #table td {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 8px;
+  }
+
+  #table {
+    margin: 16px auto;
+  }
+
+  #table th,
+  #table td {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Responsive pour mobile - Mode carte */
+@media (max-width: 640px) {
+  #table {
+    box-shadow: none;
+    background: transparent;
+  }
+
+  #table thead {
+    display: none;
+  }
+
+  #table,
+  #table tbody,
+  #table tr,
+  #table td {
+    display: block;
+    width: 100%;
+  }
+
+  #table tr {
+    margin-bottom: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+    overflow: hidden;
+    background: #fff;
+  }
+
+  #table td {
+    padding: 12px 16px;
+    text-align: right;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  #table td:last-child {
+    border-bottom: none;
+  }
+
+  #table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #334155;
+    text-align: left;
+  }
+
+  #table td.category-label {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 16px;
+    border-bottom: 2px solid #e2e8f0;
+  }
+
+  #table td.category-label::before {
+    display: none;
+  }
+
+  #table tr.total-row {
+    margin-top: 24px;
+  }
+
+  #table tr.total-row td {
+    font-size: 1rem;
+  }
+}
+
+/* Très petits écrans */
+@media (max-width: 480px) {
+  body {
+    padding: 4px;
+  }
+
+  #table tr {
+    margin-bottom: 12px;
+  }
+
+  #table td {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+  }
+
+  #table td::before {
+    font-size: 0.75rem;
+  }
+}
