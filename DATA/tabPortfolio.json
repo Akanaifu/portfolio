@@ -2,6 +2,7 @@
   {
     "categorie": "Hackathons EPHEC",
     "nom": "Hackathon 2024",
+    "date": "25-27 Octobre 2024",
     "heures_prestees": "44h",
     "heures_valorisees": "10h",
     "description": "Participation au hackathon annuel de l'EPHEC 2024. Remise à niveau d'un baby foot pour pouvoir compter le score automatiquement grâce à des capteurs dans les goals.",
@@ -19,6 +20,7 @@
   {
     "categorie": "Hackathons EPHEC",
     "nom": "Hackathon 2025",
+    "date": "24-26 Ocotbre 2025",
     "heures_prestees": "44h",
     "heures_valorisees": "10h",
     "description": "Participation au hackathon annuel de l'EPHEC 2025. A partir d'un petit piano mécanique trouvé dans une brocante, nous avons rajouté une partie électronique afin de le transformer en piano 'fantôme'.",
@@ -40,6 +42,7 @@
   {
     "categorie": "Cyber Security Challenge Belgium",
     "nom": "CSCB 2024",
+    "date": "8-9 Mars 2024",
     "heures_prestees": "24h",
     "heures_valorisees": "5h",
     "description": "Compétition de cybersécurité nationale 2024.",
@@ -53,6 +56,7 @@
   {
     "categorie": "Cyber Security Challenge Belgium",
     "nom": "CSCB 2025",
+    "date": "14-15 Mars 2025",
     "heures_prestees": "24h",
     "heures_valorisees": "5h",
     "description": "Compétition de cybersécurité nationale 2025.",
@@ -66,6 +70,7 @@
   {
     "categorie": "Conférence",
     "nom": "Let's fix it",
+    "date": "18 Mars 2024",
     "heures_prestees": "",
     "heures_valorisees": "0h",
     "description": "Participation à la conférence Let's fix it sur la réutilisation d'anciens appareils électroniques.",
@@ -79,6 +84,7 @@
   {
     "categorie": "Tutorat",
     "nom": "Programmation",
+    "date": "2024-2025",
     "heures_prestees": "",
     "heures_valorisees": "8h",
     "description": "Séances de tutorat en programmation pour étudiants de première année.",
@@ -92,6 +98,7 @@
   {
     "categorie": "Tutorat",
     "nom": "Math",
+    "date": "2025",
     "heures_prestees": "2h",
     "heures_valorisees": "2h",
     "description": "Séances de tutorat en math pour étudiants de première année.",
@@ -105,6 +112,7 @@
   {
     "categorie": "LAN EPHEC",
     "nom": "LAN EPHEC 2024",
+    "date": "27 Avril 2024",
     "heures_prestees": "11h",
     "heures_valorisees": "5h",
     "description": "Organisation et participation à la LAN party de l'EPHEC 2024.",
@@ -118,6 +126,7 @@
   {
     "categorie": "LAN EPHEC",
     "nom": "LAN EPHEC 2025",
+    "date": "26 Avril 2025",
     "heures_prestees": "11h",
     "heures_valorisees": "5h",
     "description": "Organisation et participation à la LAN party de l'EPHEC 2025.",
@@ -131,6 +140,7 @@
   {
     "categorie": "Softskills",
     "nom": "Ultimate Frisbee",
+    "date": "2023-",
     "heures_prestees": "~400h",
     "heures_valorisees": "10h",
     "description": "Pratique régulière de l'ultimate frisbee de l'EPEHC.",
@@ -148,9 +158,10 @@
   {
     "categorie": "Softskills",
     "nom": "Vélo",
-    "heures_prestees": "",
+    "date": "2018-",
+    "heures_prestees": "~92h",
     "heures_valorisees": "0h",
-    "description": "Pratique régulière du cyclisme avec profil Strava en lien.",
+    "description": "Pratique régulière du cyclisme avec profil Strava en lien. Les heures prestées sont comptés depuis la rentré à l'EPHEC en Septembre 2023",
     "preuves": [
       {
         "lien": "https://strava.com/athletes/51027626",
@@ -169,9 +180,10 @@
   {
     "categorie": "Softskills",
     "nom": "gymnastyque",
+    "date": "2022-",
     "heures_prestees": "~150h",
     "heures_valorisees": "0h",
-    "description": "Pratique hebdomadaire de gymnastique.",
+    "description": "Pratique hebdomadaire de gymnastique. Les heures prestées sont comptés depuis la rentré à l'EPHEC en Septembre 2023",
     "preuves": [
       {
         "lien": "https://www.instagram.com/reel/DOjFjYCiVx4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
@@ -182,9 +194,10 @@
   {
     "categorie": "Softskills",
     "nom": "Job étudiant (moniteur gym)",
+    "date": "2022-",
     "heures_prestees": "~150h",
     "heures_valorisees": "0h",
-    "description": "Travail comme moniteur de gymnastique.",
+    "description": "Travail comme moniteur de gymnastique. Les heures prestées sont comptés depuis la rentré à l'EPHEC en Septembre 2023",
     "preuves": [
       {
         "lien": "contrat_travail.pdf",
@@ -199,9 +212,10 @@
   {
     "categorie": "Softskills",
     "nom": "Intendant scout",
+    "date": "2022-",
     "heures_prestees": "~1150h",
     "heures_valorisees": "0h",
-    "description": "Intendant scout dans la section Baladin des Marolles.",
+    "description": "Intendant scout dans la section Baladin des Marolles. Les heures prestées sont comptés depuis la rentré à l'EPHEC en Septembre 2023",
     "preuves": [
       {
         "lien": "scout.jpg",
@@ -212,6 +226,7 @@
   {
     "categorie": "Softskills",
     "nom": "Délégué Bac 2&3",
+    "date": "2024-2026",
     "heures_prestees": "",
     "heures_valorisees": "0h",
     "description": "Représentant des étudiants de Bac 2 et 3 du secteur TI de l'EPHEC.",
@@ -229,6 +244,7 @@
   {
     "categorie": "Cyber Security Challenge Belgium",
     "nom": "CSCB 2026",
+    "date": "Mars 2026",
     "heures_prestees": "24h",
     "heures_valorisees": "0h",
     "description": "Compétition de cybersécurité nationale 2026. Pas encore participé.",

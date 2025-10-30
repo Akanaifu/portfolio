@@ -94,6 +94,7 @@ function displayActivity(activity) {
     <div class="activity-detail">
       <h1>${activity.nom}</h1>
       <p class="category">Catégorie: ${activity.categorie}</p>
+      ${activity.date ? `<p class="date">Date: ${activity.date}</p>` : ""}
       
       <div class="hours-info">
         <p><strong>Heures prestées:</strong> ${

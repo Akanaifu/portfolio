@@ -26,6 +26,13 @@ body {
   margin-bottom: 24px;
 }
 
+.date {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+}
+
 .hours-info {
   background: #f8fafc;
   padding: 16px;
