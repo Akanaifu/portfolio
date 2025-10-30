@@ -4,7 +4,7 @@
     "nom": "Hackathon 2024",
     "heures_prestees": "44h",
     "heures_valorisees": "10h",
-    "description": "Participation au hackathon annuel de l'EPHEC 2024",
+    "description": "Participation au hackathon annuel de l'EPHEC 2024. Remise à niveau d'un baby foot pour pouvoir compter le score automatiquement grâce à des capteurs dans les goals.",
     "preuves": [
       {
         "lien": "https://github.com/Nini1551/Hackaton2024",
@@ -21,7 +21,7 @@
     "nom": "Hackathon 2025",
     "heures_prestees": "44h",
     "heures_valorisees": "10h",
-    "description": "Participation au hackathon annuel de l'EPHEC 2025",
+    "description": "Participation au hackathon annuel de l'EPHEC 2025. A partir d'un petit piano mécanique trouvé dans une brocante, nous avons rajouté une partie électronique afin de le transformer en piano 'fantôme'.",
     "preuves": [
       {
         "lien": "https://github.com/Akanaifu/RizzBee",
@@ -42,7 +42,7 @@
     "nom": "CSCB 2024",
     "heures_prestees": "24h",
     "heures_valorisees": "5h",
-    "description": "Compétition de cybersécurité nationale 2024",
+    "description": "Compétition de cybersécurité nationale 2024.",
     "preuves": [
       {
         "lien": "cscb2024.png",
@@ -55,7 +55,7 @@
     "nom": "CSCB 2025",
     "heures_prestees": "24h",
     "heures_valorisees": "5h",
-    "description": "Compétition de cybersécurité nationale 2025",
+    "description": "Compétition de cybersécurité nationale 2025.",
     "preuves": [
       {
         "lien": "https://www.instagram.com/p/DIjic3RM8Iz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
@@ -68,7 +68,7 @@
     "nom": "Let's fix it",
     "heures_prestees": "",
     "heures_valorisees": "0h",
-    "description": "Participation à la conférence Let's fix it",
+    "description": "Participation à la conférence Let's fix it sur la réutilisation d'anciens appareils électroniques.",
     "preuves": [
       {
         "lien": "preuve_prof.pdf",
@@ -81,7 +81,7 @@
     "nom": "Programmation",
     "heures_prestees": "",
     "heures_valorisees": "8h",
-    "description": "Séances de tutorat en programmation pour étudiants de première année",
+    "description": "Séances de tutorat en programmation pour étudiants de première année.",
     "preuves": [
       {
         "lien": "attestation_tutorat.pdf",
@@ -94,7 +94,7 @@
     "nom": "Math",
     "heures_prestees": "2h",
     "heures_valorisees": "2h",
-    "description": "Aide aux devoirs en mathématiques",
+    "description": "Séances de tutorat en math pour étudiants de première année.",
     "preuves": [
       {
         "lien": "attestation_tutorat.pdf",
@@ -107,7 +107,7 @@
     "nom": "LAN EPHEC 2024",
     "heures_prestees": "11h",
     "heures_valorisees": "5h",
-    "description": "Organisation et participation au LAN party de l'EPHEC 2024",
+    "description": "Organisation et participation à la LAN party de l'EPHEC 2024.",
     "preuves": [
       {
         "lien": "photos_lan_2024.zip",
@@ -120,7 +120,7 @@
     "nom": "LAN EPHEC 2025",
     "heures_prestees": "11h",
     "heures_valorisees": "5h",
-    "description": "Organisation et participation au LAN party de l'EPHEC 2025",
+    "description": "Organisation et participation à la LAN party de l'EPHEC 2025.",
     "preuves": [
       {
         "lien": "photos_lan_2025.zip",
@@ -133,7 +133,7 @@
     "nom": "Ultimate Frisbee",
     "heures_prestees": "~400h",
     "heures_valorisees": "10h",
-    "description": "Pratique régulière de l'ultimate frisbee en club",
+    "description": "Pratique régulière de l'ultimate frisbee de l'EPEHC.",
     "preuves": [
       {
         "lien": "https://www.instagram.com/p/C5oUqtEIRa6/",
@@ -150,7 +150,7 @@
     "nom": "Vélo",
     "heures_prestees": "",
     "heures_valorisees": "0h",
-    "description": "Pratique régulière du cyclisme",
+    "description": "Pratique régulière du cyclisme avec profil Strava en lien.",
     "preuves": [
       {
         "lien": "https://strava.com/athletes/51027626",
@@ -171,7 +171,7 @@
     "nom": "gymnastyque",
     "heures_prestees": "~150h",
     "heures_valorisees": "0h",
-    "description": "Cours de gymnastique hebdomadaires",
+    "description": "Pratique hebdomadaire de gymnastique.",
     "preuves": [
       {
         "lien": "https://www.instagram.com/reel/DOjFjYCiVx4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
@@ -184,7 +184,7 @@
     "nom": "Job étudiant (moniteur gym)",
     "heures_prestees": "~150h",
     "heures_valorisees": "0h",
-    "description": "Travail comme moniteur de gymnastique",
+    "description": "Travail comme moniteur de gymnastique.",
     "preuves": [
       {
         "lien": "contrat_travail.pdf",
@@ -201,7 +201,7 @@
     "nom": "Intendant scout",
     "heures_prestees": "~1150h",
     "heures_valorisees": "0h",
-    "description": "Intendant dans la section Baladin des Marolles",
+    "description": "Intendant scout dans la section Baladin des Marolles.",
     "preuves": [
       {
         "lien": "scout.jpg",
@@ -214,7 +214,7 @@
     "nom": "Délégué Bac 2&3",
     "heures_prestees": "",
     "heures_valorisees": "0h",
-    "description": "Représentant des étudiants de Bac 2 et 3",
+    "description": "Représentant des étudiants de Bac 2 et 3 du secteur TI de l'EPHEC.",
     "preuves": [
       {
         "lien": "teamsDelegueB3.png",
