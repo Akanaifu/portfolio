@@ -225,5 +225,18 @@
         "legende": "Email délégué Bac 2"
       }
     ]
+  },
+  {
+    "categorie": "Cyber Security Challenge Belgium",
+    "nom": "CSCB 2026",
+    "heures_prestees": "24h",
+    "heures_valorisees": "0h",
+    "description": "Compétition de cybersécurité nationale 2026. Pas encore participé.",
+    "preuves": [
+      {
+        "lien": "",
+        "legende": "Badge de participation CSCB 2026"
+      }
+    ]
   }
 ]
