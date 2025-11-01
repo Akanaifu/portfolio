@@ -1,0 +1,12 @@
+# Configuration Strava avec token
+JS/stravaConfig.js
+
+# Node modules si vous en utilisez
+node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration locaux
+*.local.js

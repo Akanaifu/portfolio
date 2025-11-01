@@ -120,8 +120,8 @@ function buildTotalRow(headers, totals) {
     <tr class="total-row">
       <td class="category-label total-label" data-label="">Total</td>
       <td></td>
-      <td data-label="${headers[2]}">~${totals.totalPrestees}</td>
-      <td data-label="${headers[3]}">${totals.totalValorisees}</td>
+      <td data-label="${headers[2]}">~${totals.totalPrestees}h</td>
+      <td data-label="${headers[3]}">${totals.totalValorisees}h</td>
     </tr>
   `;
 }
@@ -129,6 +129,19 @@ function buildTotalRow(headers, totals) {
 async function createTab(idTab, file) {
   try {
     const data = await fetchJson(file);
+
+    if (window.updateVeloHours) {
+      const veloStats = await updateVeloHours();
+      if (veloStats) {
+        const veloEntry = data.find(
+          (item) => item.nom.toLowerCase() === "vélo"
+        );
+        if (veloEntry) {
+          veloEntry.heures_prestees = `~${veloStats.hours}h`;
+        }
+      }
+    }
+
     const table = document.getElementById(idTab);
     const headers = getTableHeaders(table);
     const tbody = ensureTbody(table);
