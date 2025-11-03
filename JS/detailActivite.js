@@ -82,6 +82,21 @@ function displayActivity(activity) {
             <p class="image-caption">${legende}</p>
           </div>
         `;
+      } else if (lien.match(/\.(pdf)$/i)) {
+        // Embed PDF in an iframe with print/open controls
+        const src = `../IMG/preuve_portfolio/${lien}`;
+        return `
+          <div class="preuve-item pdf-preuve">
+            <div class="pdf-controls">
+              <button class="btn-print" data-src="${src}">Imprimer</button>
+              <a class="btn-open" href="${src}" target="_blank" rel="noopener noreferrer">Ouvrir dans un nouvel onglet</a>
+            </div>
+            <iframe class="pdf-frame" src="${src}" title="${
+          legende || "PDF"
+        }"></iframe>
+            ${legende ? `<p class="pdf-caption">${legende}</p>` : ""}
+          </div>
+        `;
       } else {
         return `<div class="preuve-item"><a href="../IMG/preuve_portfolio/${lien}" target="_blank">${
           legende || lien
@@ -133,6 +148,9 @@ function displayActivity(activity) {
 
   // Initialiser le zoom des images
   initImageZoom();
+
+  // Initialiser les contrôles PDF (impression / ouverture)
+  initPdfControls();
 }
 
 function initImageZoom() {
@@ -168,6 +186,45 @@ function initImageZoom() {
     lightbox.style.display = "none";
     document.body.style.overflow = "auto";
   }
+}
+
+// New: initialize PDF print/open controls
+function initPdfControls() {
+  document.querySelectorAll(".btn-print").forEach((btn) => {
+    btn.addEventListener("click", async (e) => {
+      const src = btn.dataset.src;
+      if (!src) return;
+
+      // Try to find corresponding iframe
+      const iframe = document.querySelector(`iframe.pdf-frame[src="${src}"]`);
+      if (iframe && iframe.contentWindow) {
+        try {
+          // Some browsers require the iframe to be fully loaded
+          if (!iframe.dataset.loaded) {
+            await new Promise((resolve) => {
+              iframe.addEventListener(
+                "load",
+                () => {
+                  iframe.dataset.loaded = "1";
+                  resolve();
+                },
+                { once: true }
+              );
+            });
+          }
+          iframe.contentWindow.focus();
+          iframe.contentWindow.print();
+          return;
+        } catch (err) {
+          // fallthrough to open in new tab if printing fails
+          console.warn("Printing via iframe failed:", err);
+        }
+      }
+
+      // Fallback: open PDF in new tab; user can print from there
+      window.open(src, "_blank", "noopener");
+    });
+  });
 }
 
 function loadInstagramEmbed() {

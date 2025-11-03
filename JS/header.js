@@ -1,5 +1,4 @@
 function createHeader() {
-  // Détecter si on est dans un sous-dossier
   const pathDepth =
     window.location.pathname.split("/").filter((p) => p && p.includes(".html"))
       .length > 0

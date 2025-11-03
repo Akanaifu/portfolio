@@ -85,12 +85,12 @@
     "categorie": "Tutorat",
     "nom": "Programmation",
     "date": "2024-2025",
-    "heures_prestees": "",
+    "heures_prestees": "47h",
     "heures_valorisees": "8h",
     "description": "Séances de tutorat en programmation pour étudiants de première année.",
     "preuves": [
       {
-        "lien": "attestation_tutorat.pdf",
+        "lien": "Attestation_24-25_Lemaire-Nathan.pdf",
         "legende": "Attestation de tutorat"
       }
     ]
@@ -104,8 +104,8 @@
     "description": "Séances de tutorat en math pour étudiants de première année.",
     "preuves": [
       {
-        "lien": "attestation_tutorat.pdf",
-        "legende": "Attestation de tutorat"
+        "lien": "Prestation_tutorat_math.png",
+        "legende": "Preuve tutorat math 2025"
       }
     ]
   },
