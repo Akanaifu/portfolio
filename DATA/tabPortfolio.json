@@ -254,5 +254,19 @@
         "legende": "Badge de participation CSCB 2026"
       }
     ]
+  },
+  {
+    "categorie": "Conférence",
+    "nom": "Cloud avec M365 et Azure Infrastructure",
+    "date": "3 Novembre 2025",
+    "heures_prestees": "2h",
+    "heures_valorisees": "2h",
+    "description": "Conférence sur l'utilisation d'outils microsoft",
+    "preuves": [
+      {
+        "lien": "conference_azure.png",
+        "legende": "preuve de participation à la conférence"
+      }
+    ]
   }
 ]
