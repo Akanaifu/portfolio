@@ -1,10 +1,11 @@
 function createHeader() {
-  const pathDepth =
-    window.location.pathname.split("/").filter((p) => p && p.includes(".html"))
-      .length > 0
-      ? (window.location.pathname.match(/\//g) || []).length - 1
-      : 0;
-  const relativePath = pathDepth > 1 ? "../" : "";
+  const pathname = window.location.pathname;
+  const segments = pathname.split("/").filter(Boolean);
+
+  const isFile =
+    segments.length > 0 && segments[segments.length - 1].includes(".");
+  const depth = isFile ? segments.length - 1 : segments.length;
+  const relativePath = depth > 0 ? "../".repeat(depth) : "";
 
   const header = document.createElement("header");
   header.innerHTML = `
@@ -42,10 +43,18 @@ function createHeader() {
     });
   });
 
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  // Use absolute pathname resolution for accurate active link detection
+  const currentPath = window.location.pathname.endsWith("/")
+    ? window.location.pathname + "index.html"
+    : window.location.pathname;
   nav.querySelectorAll("a").forEach((link) => {
     const href = link.getAttribute("href");
-    if (href && href.includes(currentPage)) {
+    if (!href) return;
+    const linkPath = new URL(href, window.location.href).pathname;
+    const normalizedLinkPath = linkPath.endsWith("/")
+      ? linkPath + "index.html"
+      : linkPath;
+    if (normalizedLinkPath === currentPath) {
       link.classList.add("active");
     }
   });

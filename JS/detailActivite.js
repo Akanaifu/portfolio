@@ -128,7 +128,7 @@ function displayActivity(activity) {
         ${preuvesHtml || "<p>Aucune preuve disponible</p>"}
       </div>
       
-      <a href="../tabPortfolio.html" class="back-link">← Retour au tableau</a>
+      <a id="back-link" href="#" class="back-link">← Retour au tableau</a>
     </div>
     
     <!-- Lightbox pour agrandir les images -->
@@ -138,6 +138,15 @@ function displayActivity(activity) {
       <div class="lightbox-caption"></div>
     </div>
   `;
+
+  const backLink = document.getElementById("back-link");
+  if (backLink) {
+    try {
+      backLink.href = new URL("../tabPortfolio.html", location.href).href;
+    } catch (e) {
+      backLink.href = "../tabPortfolio.html";
+    }
+  }
 
   // Vérifier si on a des posts Instagram (correction du bug)
   if (
