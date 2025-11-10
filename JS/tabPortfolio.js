@@ -56,7 +56,7 @@ function buildGroupedTbodyHtml(groups, headers) {
       return rows
         .map((row, idx) => {
           const nomSlug = slugify(row.nom);
-          const nomLink = `<a href="detailActivite/activite.html?activity=${nomSlug}" class="activity-link">${
+          const nomLink = `<a href="activite.html?activity=${nomSlug}" class="activity-link">${
             capitalizeFirstLetter(row.nom) ?? ""
           }</a>`;
 
