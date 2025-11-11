@@ -148,17 +148,14 @@ function displayActivity(activity) {
     }
   }
 
-  // Vérifier si on a des posts Instagram (correction du bug)
   if (
     activity.preuves.some((p) => p.lien && p.lien.includes("instagram.com"))
   ) {
     loadInstagramEmbed();
   }
 
-  // Initialiser le zoom des images
   initImageZoom();
 
-  // Initialiser les contrôles PDF (impression / ouverture)
   initPdfControls();
 }
 

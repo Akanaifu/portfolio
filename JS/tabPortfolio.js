@@ -45,6 +45,57 @@ function slugify(str) {
     .replace(/^-+|-+$/g, ""); // supprime tirets en bordure
 }
 
+function generatePastelColors(categories) {
+  const count = categories.length;
+  const colors = {};
+
+  categories.forEach((category, index) => {
+    const hue = (index * 360) / count;
+    const saturation = 50 + (index % 3) * 5; // Varie entre 50-60%
+    const lightness = 88 + (index % 2) * 2; // Varie entre 88-90%
+
+    const background = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+
+    // Couleur de texte: même teinte mais beaucoup plus sombre
+    const textLightness = 25 + (index % 3) * 5; // Varie entre 25-35%
+    const text = `hsl(${hue}, ${saturation + 10}%, ${textLightness}%)`;
+
+    colors[category] = { background, text };
+  });
+
+  return colors;
+}
+
+function injectCategoryStyles(categoryColors) {
+  const styleId = "dynamic-category-styles";
+
+  const existingStyle = document.getElementById(styleId);
+  if (existingStyle) {
+    existingStyle.remove();
+  }
+
+  const styleElement = document.createElement("style");
+  styleElement.id = styleId;
+
+  let cssRules = "";
+
+  for (const [categorie, couleurs] of Object.entries(categoryColors)) {
+    const className = slugify(categorie);
+
+    cssRules += `
+      #table tr.cat-${className} {
+        background: ${couleurs.background} !important;
+      }
+      #table tr.cat-${className} td.category-label {
+        color: ${couleurs.text} !important;
+      }
+    `;
+  }
+
+  styleElement.textContent = cssRules;
+  document.head.appendChild(styleElement);
+}
+
 function buildGroupedTbodyHtml(groups, headers) {
   //   hearders[0] == categ
   //   hearders[1] == nom
@@ -141,6 +192,10 @@ async function createTab(idTab, file) {
         }
       }
     }
+
+    const categories = [...new Set(data.map((a) => a.categorie))];
+    const categoryColors = generatePastelColors(categories);
+    injectCategoryStyles(categoryColors);
 
     const table = document.getElementById(idTab);
     const headers = getTableHeaders(table);

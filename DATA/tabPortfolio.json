@@ -1,6 +1,6 @@
 [
   {
-    "categorie": "Hackathons EPHEC",
+    "categorie": "Challenge",
     "nom": "Hackathon 2024",
     "date": "25-27 Octobre 2024",
     "heures_prestees": "44h",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "categorie": "Hackathons EPHEC",
+    "categorie": "Challenge",
     "nom": "Hackathon 2025",
     "date": "24-26 Ocotbre 2025",
     "heures_prestees": "44h",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "categorie": "Cyber Security Challenge Belgium",
+    "categorie": "Challenge",
     "nom": "CSCB 2024",
     "date": "8-9 Mars 2024",
     "heures_prestees": "24h",
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "categorie": "Cyber Security Challenge Belgium",
+    "categorie": "Challenge",
     "nom": "CSCB 2025",
     "date": "14-15 Mars 2025",
     "heures_prestees": "24h",
@@ -242,7 +242,7 @@
     ]
   },
   {
-    "categorie": "Cyber Security Challenge Belgium",
+    "categorie": "Challenge",
     "nom": "CSCB 2026",
     "date": "Mars 2026",
     "heures_prestees": "24h",

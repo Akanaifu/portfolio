@@ -66,48 +66,7 @@ body {
   padding: 14px 16px;
 }
 
-/* couleurs par catégorie - appliquées sur toute la ligne */
-#table tr.cat-hackathons-ephec {
-  background: #fef3c7 !important;
-}
-#table tr.cat-hackathons-ephec td.category-label {
-  color: #92400e !important;
-}
-
-#table tr.cat-cyber-security-challenge-belgium {
-  background: #fee2e2 !important;
-}
-#table tr.cat-cyber-security-challenge-belgium td.category-label {
-  color: #7f1d1d !important;
-}
-
-#table tr.cat-conference {
-  background: #ede9fe !important;
-}
-#table tr.cat-conference td.category-label {
-  color: #4c1d95 !important;
-}
-
-#table tr.cat-tutorat {
-  background: #c5e487 !important;
-}
-#table tr.cat-tutorat td.category-label {
-  color: #365314 !important;
-}
-
-#table tr.cat-lan-ephec {
-  background: #89c6ee !important;
-}
-#table tr.cat-lan-ephec td.category-label {
-  color: #075985 !important;
-}
-
-#table tr.cat-softskills {
-  background: #84d4c4 !important;
-}
-#table tr.cat-softskills td.category-label {
-  color: #064e3b !important;
-}
+/* Les couleurs par catégorie sont maintenant générées dynamiquement via JavaScript */
 
 /* Responsive pour tablettes */
 @media (max-width: 1024px) {
