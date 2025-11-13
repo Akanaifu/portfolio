@@ -49,7 +49,11 @@
     "preuves": [
       {
         "lien": "cscb2024.png",
-        "legende": "Badge de participation CSCB 2024"
+        "legende": "Nombre de point obtenu"
+      },
+      {
+        "lien": "cscb2024_mailParticipation.png",
+        "legende": "mail de remerciment de participation"
       }
     ]
   },
