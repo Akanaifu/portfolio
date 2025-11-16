@@ -75,12 +75,12 @@
     "categorie": "Conférence",
     "nom": "Let's fix it",
     "date": "18 Mars 2024",
-    "heures_prestees": "",
-    "heures_valorisees": "0h",
+    "heures_prestees": "2.5h",
+    "heures_valorisees": "2.5h",
     "description": "Participation à la conférence Let's fix it sur la réutilisation d'anciens appareils électroniques.",
     "preuves": [
       {
-        "lien": "preuve_prof.pdf",
+        "lien": "letsFixIt.jpg",
         "legende": "Attestation de présence"
       }
     ]
