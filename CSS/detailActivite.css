@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f7fb;
-  color: #222;
+  background: #0d0d0d;
+  color: #e0e0e0;
   margin: 0;
   padding: 16px;
 }
@@ -9,39 +9,51 @@ body {
 .activity-detail {
   max-width: 800px;
   margin: 24px auto;
-  background: #fff;
+  background: #1a1a1a;
   padding: 32px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 1px solid #00ffff;
 }
 
 .activity-detail h1 {
-  color: #1f6feb;
+  color: #00ffff;
   margin-bottom: 8px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.activity-detail h1:hover {
+  text-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 40px rgba(0, 255, 255, 0.8);
 }
 
 .category {
-  color: #666;
+  color: #66ffff;
   font-style: italic;
   margin-bottom: 24px;
 }
 
 .date {
-  color: #666;
+  color: #66ffff;
   font-style: italic;
   margin-bottom: 24px;
   font-size: 0.9rem;
 }
 
 .hours-info {
-  background: #f8fafc;
+  background: transparent;
   padding: 16px;
   border-radius: 6px;
   margin-bottom: 24px;
+  border: 1px solid #333;
+  box-shadow: none;
 }
 
 .hours-info p {
   margin: 8px 0;
+  color: #00ffff;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
 }
 
 .description {
@@ -50,10 +62,18 @@ body {
 
 .description h2,
 .preuves h2 {
-  color: #334155;
-  border-bottom: 2px solid #e2e8f0;
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
   padding-bottom: 8px;
   margin-bottom: 16px;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.description h2:hover,
+.preuves h2:hover {
+  text-shadow: 0 0 20px rgba(0, 255, 255, 1), 0 0 35px rgba(0, 255, 255, 0.8);
 }
 
 .preuves {
@@ -63,25 +83,30 @@ body {
 .preuve-item {
   margin-bottom: 16px;
   padding: 12px;
-  background: #f8fafc;
+  background: transparent;
   border-radius: 4px;
+  border: 1px solid #333;
 }
 
 .preuve-item a {
-  color: #1f6feb;
+  color: #00ffff;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
 }
 
 .preuve-item a:hover {
   text-decoration: underline;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 1), 0 0 35px rgba(0, 255, 255, 0.8);
 }
 
 .image-preuve {
   text-align: center;
   padding: 16px;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: #1a1a1a;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 .image-preuve img {
@@ -91,26 +116,28 @@ body {
   height: auto;
   object-fit: contain;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
   cursor: zoom-in;
-  transition: transform 0.2s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #00ffff;
 }
 
 .image-preuve img:hover {
   transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
 }
 
 .image-caption {
   margin-top: 8px;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #66ffff;
   font-style: italic;
 }
 
 .preuve-legend {
   margin-top: 8px;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #66ffff;
   text-align: center;
   font-style: italic;
 }
@@ -119,8 +146,9 @@ body {
 .video-preuve {
   text-align: center;
   padding: 16px;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: #1a1a1a;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 .video-preuve video {
@@ -129,13 +157,14 @@ body {
   width: auto;
   height: auto;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  border: 1px solid #00ffff;
 }
 
 .video-caption {
   margin-top: 8px;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #66ffff;
   font-style: italic;
 }
 
@@ -157,8 +186,9 @@ body {
 .strava-badge-container {
   text-align: center;
   padding: 20px;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: #1a1a1a;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 .strava-badge- {
@@ -184,43 +214,47 @@ body {
 .strava-caption {
   margin-top: 12px;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #66ffff;
   font-weight: 500;
 }
 
 .back-link {
   display: inline-block;
   padding: 10px 20px;
-  background: #1f6feb;
-  color: #fff;
+  background: #00ffff;
+  color: #0a0a0a;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: 500;
-  transition: background 0.2s ease;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
 }
 
 .back-link:hover {
-  background: #0d47a1;
+  background: #66ffff;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
 }
 
 .error {
-  color: #dc2626;
+  color: #ff6b6b;
   padding: 16px;
-  background: #fee2e2;
+  background: #2a1a1a;
   border-radius: 6px;
+  border: 1px solid #ff6b6b;
 }
 
 .pdf-preuve {
   height: 50%;
   text-align: center;
   padding: 12px;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: #1a1a1a;
+  border: 1px solid #00ffff;
   border-radius: 6px;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 .pdf-controls {
@@ -239,33 +273,40 @@ body {
   text-decoration: none;
   font-weight: 600;
   cursor: pointer;
-  border: none;
-  color: #fff;
-  background: #1f6feb;
-  transition: background 0.15s ease;
+  border: 1px solid #00ffff;
+  color: #0a0a0a;
+  background: #00ffff;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
 }
 
 .btn-print:hover,
 .btn-open:hover {
-  background: #0d47a1;
+  background: #66ffff;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
 }
 
 .btn-open {
-  background: #6b7280;
+  background: #1a1a1a;
+  color: #00ffff;
+}
+
+.btn-open:hover {
+  background: #2a2a2a;
 }
 
 .pdf-frame {
   width: 100%;
   height: 600px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #00ffff;
   border-radius: 6px;
-  background: #fff;
+  background: #1a1a1a;
 }
 
 .pdf-caption {
   margin-top: 8px;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #66ffff;
   font-style: italic;
 }
 
@@ -317,7 +358,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -339,8 +380,9 @@ body {
   max-height: 85vh;
   object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.5);
   animation: zoomIn 0.3s ease;
+  border: 2px solid #00ffff;
 }
 
 @keyframes zoomIn {
@@ -358,24 +400,27 @@ body {
   position: absolute;
   top: 20px;
   right: 40px;
-  color: #fff;
+  color: #00ffff;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   z-index: 10000;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
 
 .lightbox-close:hover,
 .lightbox-close:focus {
-  color: #bbb;
+  color: #66ffff;
+  text-shadow: 0 0 30px rgba(0, 255, 255, 1);
 }
 
 .lightbox-caption {
-  color: #fff;
+  color: #00ffff;
   text-align: center;
   padding: 16px;
   margin-top: 16px;
   font-size: 1rem;
   max-width: 90%;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }

@@ -194,7 +194,7 @@ function initImageZoom() {
   }
 }
 
-// New: initialize PDF print/open controls
+// initialize PDF print/open controls
 function initPdfControls() {
   document.querySelectorAll(".btn-print").forEach((btn) => {
     btn.addEventListener("click", async (e) => {

@@ -1,38 +1,42 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f7fb;
-  color: #222;
+  background: #0d0d0d;
+  color: #e0e0e0;
   margin: 0;
   padding: 16px;
 }
+
+/* Styles spécifiques au tableau - les styles de base sont dans main.css */
 
 #table {
   width: 100%;
   max-width: 1200px;
   margin: 24px auto;
   border-collapse: collapse;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+  background: #1a1a1a;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   overflow: hidden;
+  border: 1px solid #00ffff;
 }
 
 #table thead th {
-  background: #1f6feb;
-  color: #fff;
+  background: #0d0d0d;
+  color: #00ffff;
   font-weight: 600;
   padding: 12px 16px;
   text-align: center;
   font-size: 0.95rem;
+  border-bottom: 2px solid #00ffff;
 }
 
 #table th,
 #table td {
-  border-bottom: 1px solid #edf2f7;
+  border-bottom: 1px solid #333;
   padding: 12px 16px;
   font-size: 0.95rem;
-  border-color: #8888;
   text-align: center;
+  color: #00ffff;
 }
 
 /* Styles pour la cellule catégorie */
@@ -43,30 +47,32 @@ body {
 
 /* Styles pour les liens d'activité */
 #table a.activity-link {
-  color: #1f6feb;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s ease;
+  transition: all 0.3s ease;
+  color: inherit;
 }
 
 #table a.activity-link:hover {
-  color: #0d47a1;
   text-decoration: underline;
+  filter: brightness(1.5);
+  transform: scale(1.05);
 }
 
 /* Styles pour la ligne de total */
 #table tr.total-row {
-  background: #1f6feb !important;
+  background: #0d0d0d !important;
   font-weight: 800;
-  color: #fff;
+  color: #00ffff;
+  border-top: 2px solid #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
 }
 
 #table tr.total-row td {
-  border-top: 2px solid #0d47a1;
+  border-top: 2px solid #00ffff;
   padding: 14px 16px;
+  color: #00ffff;
 }
-
-/* Les couleurs par catégorie sont maintenant générées dynamiquement via JavaScript */
 
 /* Responsive pour tablettes */
 @media (max-width: 1024px) {
@@ -82,10 +88,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 8px;
-  }
-
   #table {
     margin: 16px auto;
   }
@@ -102,6 +104,7 @@ body {
   #table {
     box-shadow: none;
     background: transparent;
+    border: none;
   }
 
   #table thead {
@@ -113,22 +116,22 @@ body {
   #table tr,
   #table td {
     display: block;
-    width: 95%;
   }
 
   #table tr {
     margin-bottom: 16px;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
     overflow: hidden;
-    background: #fff;
+    background: #1a1a1a;
+    border: none;
   }
 
   #table td {
     padding: 8px 16px;
     text-align: right;
     position: relative;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #333;
     min-height: 32px;
     display: flex;
     align-items: center;
@@ -143,7 +146,7 @@ body {
     content: attr(data-label);
     font-weight: 600;
     text-transform: capitalize;
-    color: #334155;
+    color: #00ffff;
     text-align: left;
     flex-shrink: 0;
     margin-right: 12px;
@@ -153,7 +156,7 @@ body {
     text-align: center;
     font-size: 1.1rem;
     padding: 12px;
-    border-bottom: 2px solid #e2e8f0;
+    border-bottom: 2px solid #00ffff;
     display: block;
   }
 
@@ -163,6 +166,7 @@ body {
 
   #table tr.total-row {
     margin-top: 24px;
+    border: none;
   }
 
   #table tr.total-row td {
@@ -173,10 +177,6 @@ body {
 
 /* Très petits écrans */
 @media (max-width: 480px) {
-  body {
-    padding: 4px;
-  }
-
   #table tr {
     margin-bottom: 12px;
   }

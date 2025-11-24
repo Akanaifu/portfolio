@@ -86,7 +86,9 @@ function injectCategoryStyles(categoryColors) {
       #table tr.cat-${className} {
         background: ${couleurs.background} !important;
       }
-      #table tr.cat-${className} td.category-label {
+      #table tr.cat-${className} td,
+      #table tr.cat-${className} td.category-label,
+      #table tr.cat-${className} a.activity-link {
         color: ${couleurs.text} !important;
       }
     `;
@@ -118,7 +120,7 @@ function buildGroupedTbodyHtml(groups, headers) {
               }" rowspan="${rows.length}">${capitalizeFirstLetter(
                 categorie
               )}</td>`,
-              `<td data-label="${headers[1]}">${nomLink}</td>`,
+              `<td data-label="${headers[1]}"><u>${nomLink}</u></td>`,
               `<td data-label="${headers[2]}">${
                 row.heures_prestees ?? ""
               }</td>`,
@@ -129,7 +131,7 @@ function buildGroupedTbodyHtml(groups, headers) {
             return `<tr class="${catClass}">${values.join("")}</tr>`;
           } else {
             const values = [
-              `<td data-label="${headers[1]}">${nomLink}</td>`,
+              `<td data-label="${headers[1]}"><u>${nomLink}</u></td>`,
               `<td data-label="${headers[2]}">${
                 row.heures_prestees ?? ""
               }</td>`,
