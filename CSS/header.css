@@ -1,9 +1,10 @@
 header {
-  background: #1f6feb;
-  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.1);
+  background: #0d0d0d;
+  box-shadow: 0 2px 20px rgba(0, 255, 255, 0.3);
   position: sticky;
   top: 0;
   z-index: 1000;
+  border-bottom: 2px solid #00ffff;
 }
 
 .header-container {
@@ -27,20 +28,22 @@ header {
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
 }
 
 .header-logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
+  color: #00ffff;
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 .header-logo:hover {
-  opacity: 0.9;
+  text-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 50px rgba(0, 255, 255, 0.8);
+  transform: scale(1.05);
 }
 
 .header-nav {
@@ -50,16 +53,18 @@ header {
 }
 
 .header-nav a {
-  color: #fff;
+  color: #00ffff;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
-  transition: opacity 0.2s ease;
+  transition: all 0.3s ease;
   position: relative;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
 }
 
 .header-nav a:hover {
-  opacity: 0.8;
+  text-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 40px rgba(0, 255, 255, 0.8);
+  transform: translateY(-2px);
 }
 
 .header-nav a::after {
@@ -69,7 +74,8 @@ header {
   left: 0;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 1);
   transition: width 0.3s ease;
 }
 
@@ -79,6 +85,7 @@ header {
 
 .header-nav a.active {
   font-weight: 700;
+  text-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 50px rgba(0, 255, 255, 0.8);
 }
 
 .header-nav a.active::after {
@@ -89,11 +96,18 @@ header {
 .menu-toggle {
   display: none;
   background: none;
-  border: none;
-  color: #fff;
+  border: 2px solid #00ffff;
+  color: #00ffff;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.menu-toggle:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
 }
 
 @media (max-width: 768px) {
@@ -102,11 +116,12 @@ header {
     top: 64px;
     left: 0;
     right: 0;
-    background: #1f6feb;
+    background: #0d0d0d;
     flex-direction: column;
     gap: 0;
     padding: 16px 0;
-    box-shadow: 0 4px 8px rgba(16, 24, 40, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.3);
+    border-bottom: 2px solid #00ffff;
     transform: translateY(-100%);
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
