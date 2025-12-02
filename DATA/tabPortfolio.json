@@ -272,5 +272,23 @@
         "legende": "preuve de participation à la conférence"
       }
     ]
+  },
+  {
+    "categorie": "Dev web",
+    "nom": "Easter egg IT 2025",
+    "date": "2 décembre 2025",
+    "heures_prestees": "5.5h",
+    "heures_valorisees": "5.5h",
+    "description": "amélioration site web easter egg (ajout backend)",
+    "preuves": [
+      {
+        "lien": "https://github.com/linadu2/easter-egg-ephec",
+        "legende": "Repository GitHub des easter eggs"
+      },
+      {
+        "lien": "recreationEasterEggApp.png",
+        "legende": "appel discord avec Pierre-Alexandre Hausman"
+      }
+    ]
   }
 ]
