@@ -1,300 +1,302 @@
 [
-  {
-    "categorie": "Challenge",
-    "nom": "Hackathon 2024",
-    "date": "25-27 Octobre 2024",
-    "heures_prestees": "44h",
-    "heures_valorisees": "10h",
-    "description": "Participation au hackathon annuel de l'EPHEC 2024. Remise à niveau d'un baby foot pour pouvoir compter le score automatiquement grâce à des capteurs dans les goals.",
-    "preuves": [
-      {
-        "lien": "https://github.com/Nini1551/Hackaton2024",
-        "legende": "Repository GitHub du projet"
-      },
-      {
-        "lien": "https://www.instagram.com/p/DCR-yQkMZ1s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        "legende": "Post Instagram de l'événement"
-      }
-    ]
-  },
-  {
-    "categorie": "Challenge",
-    "nom": "Hackathon 2025",
-    "date": "24-26 Ocotbre 2025",
-    "heures_prestees": "44h",
-    "heures_valorisees": "10h",
-    "description": "Participation au hackathon annuel de l'EPHEC 2025. A partir d'un petit piano mécanique trouvé dans une brocante, nous avons rajouté une partie électronique afin de le transformer en piano 'fantôme'.",
-    "preuves": [
-      {
-        "lien": "https://github.com/Akanaifu/RizzBee",
-        "legende": "Repository GitHub RizzBee"
-      },
-      {
-        "lien": "photo_equipe2025.jpg",
-        "legende": "Photo de l'équipe"
-      },
-      {
-        "lien": "play_piano.mp4",
-        "legende": "Vidéo du piano interactif"
-      }
-    ]
-  },
-  {
-    "categorie": "Challenge",
-    "nom": "CSCB 2024",
-    "date": "8-9 Mars 2024",
-    "heures_prestees": "24h",
-    "heures_valorisees": "5h",
-    "description": "Compétition de cybersécurité nationale 2024.",
-    "preuves": [
-      {
-        "lien": "cscb2024.png",
-        "legende": "Nombre de point obtenu"
-      },
-      {
-        "lien": "cscb2024_mailParticipation.png",
-        "legende": "mail de remerciment de participation"
-      }
-    ]
-  },
-  {
-    "categorie": "Challenge",
-    "nom": "CSCB 2025",
-    "date": "14-15 Mars 2025",
-    "heures_prestees": "24h",
-    "heures_valorisees": "5h",
-    "description": "Compétition de cybersécurité nationale 2025.",
-    "preuves": [
-      {
-        "lien": "https://www.instagram.com/p/DIjic3RM8Iz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        "legende": "Post Instagram CSCB 2025"
-      }
-    ]
-  },
-  {
-    "categorie": "Conférence",
-    "nom": "Let's fix it",
-    "date": "18 Mars 2024",
-    "heures_prestees": "2.5h",
-    "heures_valorisees": "2.5h",
-    "description": "Participation à la conférence Let's fix it sur la réutilisation d'anciens appareils électroniques.",
-    "preuves": [
-      {
-        "lien": "letsFixIt.jpg",
-        "legende": "Attestation de présence"
-      }
-    ]
-  },
-  {
-    "categorie": "Tutorat",
-    "nom": "Programmation",
-    "date": "2024-2025",
-    "heures_prestees": "47h",
-    "heures_valorisees": "8h",
-    "description": "Séances de tutorat en programmation pour étudiants de première année.",
-    "preuves": [
-      {
-        "lien": "Attestation_24-25_Lemaire-Nathan.pdf",
-        "legende": "Attestation de tutorat"
-      }
-    ]
-  },
-  {
-    "categorie": "Tutorat",
-    "nom": "Math",
-    "date": "2025",
-    "heures_prestees": "2h",
-    "heures_valorisees": "2h",
-    "description": "Séances de tutorat en math pour étudiants de première année.",
-    "preuves": [
-      {
-        "lien": "Prestation_tutorat_math.png",
-        "legende": "Preuve tutorat math 2025"
-      }
-    ]
-  },
-  {
-    "categorie": "LAN EPHEC",
-    "nom": "LAN EPHEC 2024",
-    "date": "27 Avril 2024",
-    "heures_prestees": "11h",
-    "heures_valorisees": "5h",
-    "description": "Organisation et participation à la LAN party de l'EPHEC 2024.",
-    "preuves": [
-      {
-        "lien": "LAN_Party_2024.pdf",
-        "legende": "Attestation de participation LAN EPHEC 2024"
-      }
-    ]
-  },
-  {
-    "categorie": "LAN EPHEC",
-    "nom": "LAN EPHEC 2025",
-    "date": "26 Avril 2025",
-    "heures_prestees": "11h",
-    "heures_valorisees": "5h",
-    "description": "Organisation et participation à la LAN party de l'EPHEC 2025.",
-    "preuves": [
-      {
-        "lien": "LAN_Party_2025.pdf",
-        "legende": "Attestation de participation LAN EPHEC 2025"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "Ultimate Frisbee",
-    "date": "2023-",
-    "heures_prestees": "~400h",
-    "heures_valorisees": "10h",
-    "description": "Equipe universitaire d'ultimate Frisbee de l'ephec -> 2h/semaine + 2h/semaine avec l'équipe Wolf de l'UCL",
-    "preuves": [
-      {
-        "lien": "openDeTouraine.jpg",
-        "legende": "Open de Touraine (2024)"
-      }, 
-      {"lien": "preuveParticipationEntrainementUCL.png",
-      "legende": "preuve de participation à un entrainement de l'UCL"},
-      {
-        "lien": "https://www.instagram.com/p/C5oUqtEIRa6/",
-        "legende": "Post Instagram de l'équipe"
-      },
-      {
-        "lien": "https://www.facebook.com/photo.php?fbid=1085725463345007&set=a.208713874379508&type=3",
-        "legende": "Tournoi ASEUS indoor 2024"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "Vélo",
-    "date": "2018-",
-    "heures_prestees": "~92h",
-    "heures_valorisees": "0h",
-    "description": "Pratique régulière du cyclisme avec profil Strava en lien. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
-    "preuves": [
-      {
-        "lien": "https://strava.com/athletes/51027626",
-        "legende": "Profil Strava"
-      },
-      {
-        "lien": "velo_col.jpg",
-        "legende": "Sortie en montagne"
-      },
-      {
-        "lien": "velo_hiver.jpg",
-        "legende": "Vélo en hiver"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "gymnastique",
-    "date": "2022-",
-    "heures_prestees": "~150h",
-    "heures_valorisees": "0h",
-    "description": "Pratique hebdomadaire de gymnastique. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
-    "preuves": [
-      {
-        "lien": "https://www.instagram.com/reel/DOjFjYCiVx4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        "legende": "Démonstration de gymnastique"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "Job étudiant (moniteur gym)",
-    "date": "2022-",
-    "heures_prestees": "~150h",
-    "heures_valorisees": "0h",
-    "description": "Travail comme moniteur de gymnastique. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
-    "preuves": [
-      {
-        "lien": "contrat_travail.pdf",
-        "legende": "Contrat de travail"
-      },
-      {
-        "lien": "attestation_employeur.pdf",
-        "legende": "Attestation de l'employeur"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "Intendant scout",
-    "date": "2022-",
-    "heures_prestees": "~1200h",
-    "heures_valorisees": "0h",
-    "description": "Intendant scout dans la section Baladin des Marolles. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
-    "preuves": [
-      {
-        "lien": "scout.jpg",
-        "legende": "Photo du camp scout"
-      }
-    ]
-  },
-  {
-    "categorie": "Softskills",
-    "nom": "Délégué Bac 2&3",
-    "date": "2024-2026",
-    "heures_prestees": "",
-    "heures_valorisees": "0h",
-    "description": "Représentant des étudiants de Bac 2 et 3 du secteur TI de l'EPHEC.",
-    "preuves": [
-      {
-        "lien": "teamsDelegueB3.png",
-        "legende": "Message Teams délégué Bac 3"
-      },
-      {
-        "lien": "mailDelegueB2.png",
-        "legende": "Email délégué Bac 2"
-      }
-    ]
-  },
-  {
-    "categorie": "Challenge",
-    "nom": "CSCB 2026",
-    "date": "Mars 2026",
-    "heures_prestees": "24h",
-    "heures_valorisees": "0h",
-    "description": "Compétition de cybersécurité nationale 2026. Pas encore participé.",
-    "preuves": [
-      {
-        "lien": "",
-        "legende": "Badge de participation CSCB 2026"
-      }
-    ]
-  },
-  {
-    "categorie": "Conférence",
-    "nom": "Cloud avec M365 et Azure Infrastructure",
-    "date": "3 Novembre 2025",
-    "heures_prestees": "2h",
-    "heures_valorisees": "2h",
-    "description": "Conférence sur l'utilisation d'outils microsoft",
-    "preuves": [
-      {
-        "lien": "conference_azure.png",
-        "legende": "preuve de participation à la conférence"
-      }
-    ]
-  },
-  {
-    "categorie": "Dev web",
-    "nom": "Easter egg IT 2025",
-    "date": "2 décembre 2025",
-    "heures_prestees": "5.5h",
-    "heures_valorisees": "5.5h",
-    "description": "amélioration site web easter egg (ajout backend)",
-    "preuves": [
-      {
-        "lien": "https://github.com/linadu2/easter-egg-ephec",
-        "legende": "Repository GitHub des easter eggs"
-      },
-      {
-        "lien": "recreationEasterEggApp.png",
-        "legende": "appel discord avec Pierre-Alexandre Hausman"
-      }
-    ]
-  }
+	{
+		"categorie": "Challenge",
+		"nom": "Hackathon 2024",
+		"date": "25-27 Octobre 2024",
+		"heures_prestees": "44h",
+		"heures_valorisees": "10h",
+		"description": "Participation au hackathon annuel de l'EPHEC 2024. Remise à niveau d'un baby foot pour pouvoir compter le score automatiquement grâce à des capteurs dans les goals.",
+		"preuves": [
+			{
+				"lien": "https://github.com/Nini1551/Hackaton2024",
+				"legende": "Repository GitHub du projet"
+			},
+			{
+				"lien": "https://www.instagram.com/p/DCR-yQkMZ1s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+				"legende": "Post Instagram de l'événement"
+			}
+		]
+	},
+	{
+		"categorie": "Challenge",
+		"nom": "Hackathon 2025",
+		"date": "24-26 Ocotbre 2025",
+		"heures_prestees": "44h",
+		"heures_valorisees": "10h",
+		"description": "Participation au hackathon annuel de l'EPHEC 2025. A partir d'un petit piano mécanique trouvé dans une brocante, nous avons rajouté une partie électronique afin de le transformer en piano 'fantôme'.",
+		"preuves": [
+			{
+				"lien": "https://github.com/Akanaifu/RizzBee",
+				"legende": "Repository GitHub RizzBee"
+			},
+			{
+				"lien": "photo_equipe2025.jpg",
+				"legende": "Photo de l'équipe"
+			},
+			{
+				"lien": "play_piano.mp4",
+				"legende": "Vidéo du piano interactif"
+			}
+		]
+	},
+	{
+		"categorie": "Challenge",
+		"nom": "CSCB 2024",
+		"date": "8-9 Mars 2024",
+		"heures_prestees": "24h",
+		"heures_valorisees": "5h",
+		"description": "Compétition de cybersécurité nationale 2024.",
+		"preuves": [
+			{
+				"lien": "cscb2024.png",
+				"legende": "Nombre de point obtenu"
+			},
+			{
+				"lien": "cscb2024_mailParticipation.png",
+				"legende": "mail de remerciment de participation"
+			}
+		]
+	},
+	{
+		"categorie": "Challenge",
+		"nom": "CSCB 2025",
+		"date": "14-15 Mars 2025",
+		"heures_prestees": "24h",
+		"heures_valorisees": "5h",
+		"description": "Compétition de cybersécurité nationale 2025.",
+		"preuves": [
+			{
+				"lien": "https://www.instagram.com/p/DIjic3RM8Iz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+				"legende": "Post Instagram CSCB 2025"
+			}
+		]
+	},
+	{
+		"categorie": "Conférence",
+		"nom": "Let's fix it",
+		"date": "18 Mars 2024",
+		"heures_prestees": "2.5h",
+		"heures_valorisees": "2.5h",
+		"description": "Participation à la conférence Let's fix it sur la réutilisation d'anciens appareils électroniques.",
+		"preuves": [
+			{
+				"lien": "letsFixIt.jpg",
+				"legende": "Attestation de présence"
+			}
+		]
+	},
+	{
+		"categorie": "Tutorat",
+		"nom": "Programmation",
+		"date": "2024-2025",
+		"heures_prestees": "47h",
+		"heures_valorisees": "8h",
+		"description": "Séances de tutorat en programmation pour étudiants de première année.",
+		"preuves": [
+			{
+				"lien": "Attestation_24-25_Lemaire-Nathan.pdf",
+				"legende": "Attestation de tutorat"
+			}
+		]
+	},
+	{
+		"categorie": "Tutorat",
+		"nom": "Math",
+		"date": "2025",
+		"heures_prestees": "2h",
+		"heures_valorisees": "2h",
+		"description": "Séances de tutorat en math pour étudiants de première année.",
+		"preuves": [
+			{
+				"lien": "Prestation_tutorat_math.png",
+				"legende": "Preuve tutorat math 2025"
+			}
+		]
+	},
+	{
+		"categorie": "LAN EPHEC",
+		"nom": "LAN EPHEC 2024",
+		"date": "27 Avril 2024",
+		"heures_prestees": "11h",
+		"heures_valorisees": "5h",
+		"description": "Organisation et participation à la LAN party de l'EPHEC 2024.",
+		"preuves": [
+			{
+				"lien": "LAN_Party_2024.pdf",
+				"legende": "Attestation de participation LAN EPHEC 2024"
+			}
+		]
+	},
+	{
+		"categorie": "LAN EPHEC",
+		"nom": "LAN EPHEC 2025",
+		"date": "26 Avril 2025",
+		"heures_prestees": "11h",
+		"heures_valorisees": "5h",
+		"description": "Organisation et participation à la LAN party de l'EPHEC 2025.",
+		"preuves": [
+			{
+				"lien": "LAN_Party_2025.pdf",
+				"legende": "Attestation de participation LAN EPHEC 2025"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "Ultimate Frisbee",
+		"date": "2023-",
+		"heures_prestees": "~400h",
+		"heures_valorisees": "10h",
+		"description": "Equipe universitaire d'ultimate Frisbee de l'ephec -> 2h/semaine + 2h/semaine avec l'équipe Wolf de l'UCL",
+		"preuves": [
+			{
+				"lien": "openDeTouraine.jpg",
+				"legende": "Open de Touraine (2024)"
+			},
+			{
+				"lien": "preuveParticipationEntrainementUCL.png",
+				"legende": "preuve de participation à un entrainement de l'UCL"
+			},
+			{
+				"lien": "https://www.instagram.com/p/C5oUqtEIRa6/",
+				"legende": "Post Instagram de l'équipe"
+			},
+			{
+				"lien": "https://www.facebook.com/photo.php?fbid=1085725463345007&set=a.208713874379508&type=3",
+				"legende": "Tournoi ASEUS indoor 2024"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "Vélo",
+		"date": "2018-",
+		"heures_prestees": "~92h",
+		"heures_valorisees": "0h",
+		"description": "Pratique régulière du cyclisme avec profil Strava en lien. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
+		"preuves": [
+			{
+				"lien": "https://strava.com/athletes/51027626",
+				"legende": "Profil Strava"
+			},
+			{
+				"lien": "velo_col.jpg",
+				"legende": "Sortie en montagne"
+			},
+			{
+				"lien": "velo_hiver.jpg",
+				"legende": "Vélo en hiver"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "gymnastique",
+		"date": "2022-",
+		"heures_prestees": "~150h",
+		"heures_valorisees": "0h",
+		"description": "Pratique hebdomadaire de gymnastique. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
+		"preuves": [
+			{
+				"lien": "https://www.instagram.com/reel/DOjFjYCiVx4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+				"legende": "Démonstration de gymnastique"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "Job étudiant (moniteur gym)",
+		"date": "2022-",
+		"heures_prestees": "~150h",
+		"heures_valorisees": "0h",
+		"description": "Travail comme moniteur de gymnastique. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
+		"preuves": [
+			{
+				"lien": "contrat_travail.pdf",
+				"legende": "Contrat de travail"
+			},
+			{
+				"lien": "attestation_employeur.pdf",
+				"legende": "Attestation de l'employeur"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "Intendant scout",
+		"date": "2022-",
+		"heures_prestees": "~1200h",
+		"heures_valorisees": "0h",
+		"description": "Intendant scout dans la section Baladin des Marolles. Les heures prestées sont comptés depuis la rentrée à l'EPHEC en Septembre 2023",
+		"preuves": [
+			{
+				"lien": "scout.jpg",
+				"legende": "Photo du camp scout"
+			}
+		]
+	},
+	{
+		"categorie": "Softskills",
+		"nom": "Délégué Bac 2&3",
+		"date": "2024-2026",
+		"heures_prestees": "",
+		"heures_valorisees": "0h",
+		"description": "Représentant des étudiants de Bac 2 et 3 du secteur TI de l'EPHEC.",
+		"preuves": [
+			{
+				"lien": "teamsDelegueB3.png",
+				"legende": "Message Teams délégué Bac 3"
+			},
+			{
+				"lien": "mailDelegueB2.png",
+				"legende": "Email délégué Bac 2"
+			}
+		]
+	},
+	{
+		"categorie": "Challenge",
+		"nom": "CSCB 2026",
+		"date": "Mars 2026",
+		"heures_prestees": "24h",
+		"heures_valorisees": "0h",
+		"description": "Compétition de cybersécurité nationale 2026. Pas encore participé.",
+		"preuves": [
+			{
+				"lien": "",
+				"legende": "Badge de participation CSCB 2026"
+			}
+		]
+	},
+	{
+		"categorie": "Conférence",
+		"nom": "Cloud avec M365 et Azure Infrastructure",
+		"date": "3 Novembre 2025",
+		"heures_prestees": "2h",
+		"heures_valorisees": "2h",
+		"description": "Conférence sur l'utilisation d'outils microsoft",
+		"preuves": [
+			{
+				"lien": "conference_azure.png",
+				"legende": "preuve de participation à la conférence"
+			}
+		]
+	},
+	{
+		"categorie": "Dev web",
+		"nom": "Easter egg IT 2025",
+		"date": "2 décembre 2025",
+		"heures_prestees": "5.5h",
+		"heures_valorisees": "5.5h",
+		"description": "amélioration site web easter egg (ajout backend)",
+		"preuves": [
+			{
+				"lien": "https://github.com/linadu2/easter-egg-ephec",
+				"legende": "Repository GitHub des easter eggs"
+			},
+			{
+				"lien": "recreationEasterEggApp.png",
+				"legende": "appel discord avec Pierre-Alexandre Hausman"
+			}
+		]
+	}
 ]
