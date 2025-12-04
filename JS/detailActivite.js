@@ -52,6 +52,23 @@ function displayActivity(activity) {
           ${legende ? `<p class="preuve-legend">${legende}</p>` : ""}
         </div>
       `;
+      } else if (lien.includes("facebook.com")) {
+        // Extraire l'URL du post Facebook
+        const fbUrl = encodeURIComponent(lien);
+        return `
+        <div class="preuve-item facebook-embed">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=${fbUrl}&show_text=true&width=500" 
+                  width="500" 
+                  height="643" 
+                  style="border:none;overflow:hidden" 
+                  scrolling="no" 
+                  frameborder="0" 
+                  allowfullscreen="true" 
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+          </iframe>
+          ${legende ? `<p class="preuve-legend">${legende}</p>` : ""}
+        </div>
+        `;
       } else if (lien.includes("strava.com/athletes/")) {
         return `
         <div class="preuve-item strava-badge-container">
@@ -107,6 +124,7 @@ function displayActivity(activity) {
 
   container.innerHTML = `
     <div class="activity-detail">
+    <a id="back-link" href="#" class="back-link">← Retour au tableau</a>
       <h1>${activity.nom}</h1>
       <p class="category">Catégorie: ${activity.categorie}</p>
       ${activity.date ? `<p class="date">Date: ${activity.date}</p>` : ""}
@@ -128,7 +146,6 @@ function displayActivity(activity) {
         ${preuvesHtml || "<p>Aucune preuve disponible</p>"}
       </div>
       
-      <a id="back-link" href="#" class="back-link">← Retour au tableau</a>
     </div>
     
     <!-- Lightbox pour agrandir les images -->

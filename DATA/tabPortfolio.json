@@ -147,15 +147,21 @@
     "date": "2023-",
     "heures_prestees": "~400h",
     "heures_valorisees": "10h",
-    "description": "Pratique régulière de l'ultimate frisbee de l'EPEHC.",
+    "description": "Equipe universitaire d'ultimate Frisbee de l'ephec -> 2h/semaine + 2h/semaine avec l'équipe Wolf de l'UCL",
     "preuves": [
       {
+        "lien": "openDeTouraine.jpg",
+        "legende": "Open de Touraine (2024)"
+      }, 
+      {"lien": "preuveParticipationEntrainementUCL.png",
+      "legende": "preuve de participation à un entrainement de l'UCL"},
+      {
         "lien": "https://www.instagram.com/p/C5oUqtEIRa6/",
-        "legende": "Post Instagram du club"
+        "legende": "Post Instagram de l'équipe"
       },
       {
-        "lien": "openDeTouraine.jpg",
-        "legende": "Open de Touraine"
+        "lien": "https://www.facebook.com/photo.php?fbid=1085725463345007&set=a.208713874379508&type=3",
+        "legende": "Tournoi ASEUS indoor 2024"
       }
     ]
   },

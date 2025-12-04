@@ -182,6 +182,41 @@ body {
   margin: 0 auto !important;
 }
 
+/* Styles pour les embeds Facebook */
+.facebook-embed {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook-embed iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive pour Facebook embeds */
+@media (max-width: 768px) {
+  .facebook-embed {
+    max-width: 100%;
+  }
+  
+  .facebook-embed iframe {
+    width: 100% !important;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facebook-embed iframe {
+    height: auto;
+    min-height: 500px;
+  }
+}
+
 /* Styles pour le badge Strava */
 .strava-badge-container {
   text-align: center;
