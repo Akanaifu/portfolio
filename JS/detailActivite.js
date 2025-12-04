@@ -184,13 +184,13 @@ function initImageZoom() {
 
 	closeBtn.addEventListener("click", closeLightbox);
 
-	lightbox.addEventListener("click", function (e) {
+	lightbox.addEventListener("click", (e) => {
 		if (e.target === lightbox) {
 			closeLightbox();
 		}
 	});
 
-	document.addEventListener("keydown", function (e) {
+	document.addEventListener("keydown", (e) => {
 		if (e.key === "Escape" && lightbox.style.display === "flex") {
 			closeLightbox();
 		}
